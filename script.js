@@ -2,10 +2,22 @@ const pageCount = 356
 const meetingDate = new Date("2024-04-24")
 const currentDate = new Date()
 const oneDay = 1000 * 3600 * 24
-let currentPage = 50
+let currentPage = 0
 
 let daysToMeeting = Math.floor((meetingDate.getTime() - currentDate.getTime())/oneDay) - 1
-let pagesLeft = Math.ceil((pageCount - currentPage)/daysToMeeting)
+//let ppd = Math.ceil((pageCount - currentPage)/daysToMeeting)
+
+document.getElementById('meeting-date').innerHTML = `Meeting Date is ${meetingDate.getMonth()+1}-${meetingDate.getDate()}-${meetingDate.getFullYear()}`
+
+document.getElementById('pagecount').innerHTML = `Page Count: ${pageCount}`
+
+document.getElementById('ppd').innerHTML = `Pages Per Day Needed: `
+
+function calculatePPD() {
+    currentPage = document.getElementById('currentpage').value
+    let ppd = Math.ceil((pageCount - currentPage)/daysToMeeting)
+    document.getElementById('ppd').innerHTML = `Pages Per Day Needed: ${ppd}`
+}
 
 console.log(`Days left: ${daysToMeeting}`)
-console.log(`Pages per day needed: ${pagesLeft}`)
+console.log(`Pages per day needed: ${ppd}`)
