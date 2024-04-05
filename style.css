@@ -70,3 +70,9 @@ h1 {
 .highlight {
   color: #ff69b4;
 }
+
+.wrapper {
+  width: 26rem;
+  margin: 0 auto;
+  padding: .5rem 1rem;
+}
