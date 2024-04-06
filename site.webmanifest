@@ -2,7 +2,8 @@
   "name": "Pages Per Day",
   "short_name": "PPD",
   "icons": [
-    { "src": "/ppd-icon.png", "sizes": "512x512", "type": "image/png" }
+    { "src": "/ppd-icon.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/ppd-icon-sm.png", "sizes": "192x192", "type": "image/png" }
   ],
   "theme_color": "#121212",
   "background_color": "#121212",

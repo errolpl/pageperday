@@ -27,6 +27,3 @@ function calculatePPD() {
     pageCount - currentPage
   }`;
 }
-
-console.log(`Days left: ${daysToMeeting}`);
-console.log(`Pages per day needed: ${ppd}`);
