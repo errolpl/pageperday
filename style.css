@@ -65,14 +65,23 @@ h6 {
 
 h1 {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
+h2 {
+  margin-bottom: 1rem;
+}
 .highlight {
   color: #ff69b4;
 }
 
+input {
+  margin-bottom: 1rem;
+  display: block;
+}
+
 .wrapper {
-  width: 26rem;
+  width: 100%;
   margin: 0 auto;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
