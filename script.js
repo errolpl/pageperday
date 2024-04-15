@@ -1,8 +1,10 @@
 const pageCount = 346;
-const meetingDate = new Date("2024-04-24");
+const meetingDate = new Date("April 24 2024 19:00:00");
 const currentDate = new Date();
 const oneDay = 1000 * 3600 * 24;
 let currentPage = 0;
+console.log(`Current Date: ${currentDate}`);
+console.log(`Meeting date: ${meetingDate}`);
 
 let daysToMeeting =
   Math.floor((meetingDate.getTime() - currentDate.getTime()) / oneDay) - 1;
