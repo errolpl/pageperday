@@ -1,5 +1,5 @@
-const pageCount = 346;
-const meetingDate = new Date("April 24 2024 19:00:00");
+const pageCount = 281;
+const meetingDate = new Date("June 26 2024 19:00:00");
 const currentDate = new Date();
 const oneDay = 1000 * 3600 * 24;
 let currentPage = 0;
