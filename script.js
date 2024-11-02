@@ -1,5 +1,5 @@
-const pageCount = 210 //update monthly
-const meetingDate = new Date("October 30 2024 19:00:00") //update monthly
+const pageCount = 259 //update monthly
+const meetingDate = new Date("November 27 2024 19:00:00") //update monthly
 const currentDate = new Date()
 const oneDay = 1000 * 3600 * 24
 let currentPage = 0
